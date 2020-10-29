@@ -1,0 +1,41 @@
+*      Display default input for Simulation; begin
+Nmen=500; //    Number of men in Simulation
+25     Number of floors
+8      Number of lifts
+10     Max load in one lift
+0.002  Time for man to get in elevator (average)
+0.002  Time for man to get out of elevator
+0.001  Door slam time
+0.003  Floor to floor time for elevator
+0.001  Acceleration time for elevator
+0.001  Deceleration time for elevator
+4711   Random seed 1
+1985   Random seed 2
+32767  Random seed 3
+32761  Random seed 4
+0.30   Give up time (average)
+0.5    Standard deviation
+30.0   Mean arrival time
+7.0    Starting time in the morning
+19.0   Ending time in the evening
+
+
+    Nmen:= inint;
+    inimage; Nfloors:= inint;
+    inimage; Nlifts:= inint;
+    inimage; Maxload:= inint;
+    inimage; Gintime:= inreal;
+    inimage; Goutime:= inreal;
+    inimage; Dslamt:= inreal;
+    inimage; Ftoftime:= inreal;
+    inimage; Acctime:= inreal;
+    inimage; Dectime:= inreal;
+    inimage; Base1:= inint;
+    inimage; Base2:= inint;
+    inimage; Base3:= inint;
+    inimage; Base4:= inint;
+    inimage; Mgiveup:= inreal;
+    inimage; Stdev:= inreal;
+    inimage; Marrival:= inreal;
+    inimage; Strtt:= inreal;
+    inimage; Endtm:= inreal;
