@@ -10,8 +10,8 @@ import simulation.Util;
 
 public class Lift extends Process {
 	private static int SEQU;
-	private static final int maxload=4;//10;                // Max load in one lift
-	private static final double doorSlamTime=0.01;//0.001;     // Door slam time
+	private static final int maxload=4;//10;				  // Max load in one lift
+	private static final double doorSlamTime=0.01;//0.001;    // Door slam time
 	private static final double floorToFloorTime=0.3;//0.003; // Floor to floor time for elevator
 	private static final double accelerationTime=0.1;//0.001; // Acceleration time for elevator
 	private static final double decelerationTime=0.1;//0.001; // Deceleration time for elevator
