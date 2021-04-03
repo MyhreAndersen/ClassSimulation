@@ -102,7 +102,9 @@ public abstract class Process extends Ranking {
 		queue.add(this);
 //		simulation.listQueue("Before WAIT: "+this,queue);
 		cancel();
-		queue.remove(this);
+		
+//		queue.remove(this); // TODO: Check dette
+		
 //		simulation.listQueue("After WAIT: "+this,queue);
         SIM_TRACE(name+":END WAITING: ");
 	}
